@@ -1,0 +1,265 @@
+ [
+ {
+    "question": "Welcher Befehl ändert Daten?",
+    "type": "text",
+    "answer": "UPDATE",
+    "explanation": "UPDATE verändert bestehende Daten."
+  },
+  {
+    "question": "Schreibe ein UPDATE-Grundgerüst:",
+    "type": "copy",
+    "options": [
+      "UPDATE table SET spalte = wert",
+      "CHANGE table TO wert",
+      "MODIFY table"
+    ],
+    "answer": "UPDATE table SET spalte = wert",
+    "explanation": "UPDATE verändert Werte in einer Tabelle."
+  },
+  {
+  "question": "Was macht SELECT?",
+  "type": "mc",
+  "options": [
+    "Sortiert Daten",
+    "Wählt Spalten aus",
+    "Löscht Daten",
+    "Gruppiert Daten"
+  ],
+  "answer": "Wählt Spalten aus",
+  "explanation": "SELECT bestimmt, welche Spalten angezeigt werden."
+},
+{
+  "question": "Welches Schlüsselwort bestimmt die Datenquelle?",
+  "type": "text",
+  "answer": "FROM",
+  "explanation": "FROM gibt an, aus welcher Tabelle die Daten kommen."
+},
+{
+  "question": "Schreibe eine Abfrage für alle Spalten aus 'kunden':",
+  "type": "copy",
+  "options": [
+    "SELECT * FROM kunden",
+    "GET ALL kunden",
+    "SHOW kunden"
+  ],
+  "answer": "SELECT * FROM kunden",
+  "explanation": "* steht für alle Spalten."
+},
+{
+  "question": "Was macht WHERE?",
+  "type": "mc",
+  "options": [
+    "Sortiert",
+    "Filtert Zeilen",
+    "Gruppiert",
+    "Verbindet Tabellen"
+  ],
+  "answer": "Filtert Zeilen",
+  "explanation": "WHERE schränkt die Ergebnismenge ein."
+},
+{
+  "question": "Welches Schlüsselwort gruppiert Daten?",
+  "type": "text",
+  "answer": "GROUP BY",
+  "explanation": "GROUP BY fasst Datensätze zusammen."
+},
+{
+  "question": "Was macht COUNT(*)?",
+  "type": "mc",
+  "options": [
+    "Addiert Werte",
+    "Zählt Zeilen",
+    "Sortiert",
+    "Filtert"
+  ],
+  "answer": "Zählt Zeilen",
+  "explanation": "COUNT(*) zählt alle Datensätze."
+},
+{
+  "question": "Welche Funktion berechnet den Durchschnitt?",
+  "type": "text",
+  "answer": "AVG",
+  "explanation": "AVG berechnet den Mittelwert."
+},
+{
+  "question": "Schreibe eine Zählung aller Kunden:",
+  "type": "copy",
+  "options": [
+    "SELECT COUNT(*) FROM kunden",
+    "SELECT SUM(*) FROM kunden",
+    "SELECT kunden COUNT"
+  ],
+  "answer": "SELECT COUNT(*) FROM kunden",
+  "explanation": "COUNT(*) zählt alle Zeilen."
+},
+{
+  "question": "Was macht GROUP BY?",
+  "type": "mc",
+  "options": [
+    "Sortiert Daten",
+    "Gruppiert Daten",
+    "Filtert Daten",
+    "Löscht Daten"
+  ],
+  "answer": "Gruppiert Daten",
+  "explanation": "GROUP BY fasst gleiche Werte zusammen."
+},
+{
+  "question": "Welches Schlüsselwort filtert Gruppen?",
+  "type": "text",
+  "answer": "HAVING",
+  "explanation": "HAVING wird nach GROUP BY verwendet."
+},
+{
+  "question": "Was ist der Unterschied zwischen WHERE und HAVING?",
+  "type": "mc",
+  "options": [
+    "Kein Unterschied",
+    "WHERE für Gruppen, HAVING für Zeilen",
+    "WHERE für Zeilen, HAVING für Gruppen",
+    "HAVING sortiert"
+  ],
+  "answer": "WHERE für Zeilen, HAVING für Gruppen",
+  "explanation": "WHERE filtert vor der Gruppierung, HAVING danach."
+},
+{
+  "question": "Schreibe eine Gruppierung nach Stadt:",
+  "type": "copy",
+  "options": [
+    "GROUP BY stadt",
+    "ORDER BY stadt",
+    "WHERE stadt"
+  ],
+  "answer": "GROUP BY stadt",
+  "explanation": "GROUP BY fasst gleiche Städte zusammen."
+},
+{
+  "question": "Was macht SUM()?",
+  "type": "mc",
+  "options": [
+    "Zählt",
+    "Addiert Werte",
+    "Sortiert",
+    "Filtert"
+  ],
+  "answer": "Addiert Werte",
+  "explanation": "SUM berechnet die Summe."
+},
+{
+  "question": "Welche Funktion gibt den kleinsten Wert zurück?",
+  "type": "text",
+  "answer": "MIN",
+  "explanation": "MIN liefert den kleinsten Wert."
+},
+{
+  "question": "Welche Funktion gibt den größten Wert zurück?",
+  "type": "text",
+  "answer": "MAX",
+  "explanation": "MAX liefert den größten Wert."
+},
+{
+  "question": "Was macht JOIN?",
+  "type": "mc",
+  "options": [
+    "Filtert Daten",
+    "Verbindet Tabellen",
+    "Sortiert Daten",
+    "Löscht Daten"
+  ],
+  "answer": "Verbindet Tabellen",
+  "explanation": "JOIN kombiniert Daten aus mehreren Tabellen."
+},
+{
+  "question": "Welches Schlüsselwort verbindet Tabellen?",
+  "type": "text",
+  "answer": "JOIN",
+  "explanation": "JOIN wird verwendet, um Tabellen zu kombinieren."
+},
+{
+  "question": "Schreibe ein JOIN-Grundgerüst:",
+  "type": "copy",
+  "options": [
+    "FROM tabelle1 JOIN tabelle2 ON id = id",
+    "CONNECT tabelle1 tabelle2",
+    "MERGE tabelle1 tabelle2"
+  ],
+  "answer": "FROM tabelle1 JOIN tabelle2 ON id = id",
+  "explanation": "JOIN verbindet Tabellen über eine Bedingung."
+},
+{
+  "question": "Was macht ORDER BY DESC?",
+  "type": "mc",
+  "options": [
+    "Aufsteigend sortieren",
+    "Absteigend sortieren",
+    "Filtern",
+    "Gruppieren"
+  ],
+  "answer": "Absteigend sortieren",
+  "explanation": "DESC sortiert absteigend."
+},
+{
+  "question": "In welcher Reihenfolge läuft SQL intern zuerst?",
+  "type": "mc",
+  "options": [
+    "SELECT",
+    "FROM",
+    "ORDER BY",
+    "HAVING"
+  ],
+  "answer": "FROM",
+  "explanation": "Die Datenquelle wird zuerst bestimmt."
+},
+{
+  "question": "Was macht die Bedingung preis > 100?",
+  "type": "mc",
+  "options": [
+    "Filtert Werte kleiner 100",
+    "Filtert Werte größer 100",
+    "Sortiert nach Preis",
+    "Gruppiert nach Preis"
+  ],
+  "answer": "Filtert Werte größer 100",
+  "explanation": "> bedeutet größer als."
+},
+{
+  "question": "Welcher Operator bedeutet 'ungleich'?",
+  "type": "text",
+  "answer": "!=",
+  "explanation": "!= steht für ungleich (alternativ <>)."
+},
+{
+  "question": "Schreibe eine Bedingung für 'nicht Berlin':",
+  "type": "copy",
+  "options": [
+    "WHERE stadt != 'Berlin'",
+    "WHERE stadt = NOT 'Berlin'",
+    "WHERE NOT stadt = Berlin"
+  ],
+  "answer": "WHERE stadt != 'Berlin'",
+  "explanation": "!= oder <> bedeutet ungleich."
+},
+{
+  "question": "Was macht BETWEEN?",
+  "type": "mc",
+  "options": [
+    "Vergleicht zwei Tabellen",
+    "Prüft einen Wertebereich",
+    "Sortiert Daten",
+    "Zählt Werte"
+  ],
+  "answer": "Prüft einen Wertebereich",
+  "explanation": "BETWEEN prüft, ob ein Wert in einem Bereich liegt."
+},
+{
+  "question": "Schreibe eine Bedingung für Datum nach 2020:",
+  "type": "copy",
+  "options": [
+    "WHERE datum > '2020-01-01'",
+    "WHERE datum AFTER 2020",
+    "WHERE datum = 2020+"
+  ],
+  "answer": "WHERE datum > '2020-01-01'",
+  "explanation": "Datumsvergleiche funktionieren wie Zahlenvergleiche."
+}
+]
